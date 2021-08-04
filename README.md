@@ -59,3 +59,8 @@ Example Using program:
     Please pick from the following options: 
     1. View Balance 2. Deposit Money 3. Withdraw Money 4. Reset Pin 5.Exit:
     
+###Testing
+To run the unit tests from the files TestAccount.py and TestBank.py you can run the following commands:
+
+    python3 -m unittest TestAccount.py
+    python3 -m unittest TestBank.py

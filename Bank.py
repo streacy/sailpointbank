@@ -2,6 +2,12 @@ from typing import Dict
 
 import Account
 
+"""
+Bank keeps track of users by keeping a map of user name to Account instance.
+Every time a new Account is created, it will add it to its map.
+
+"""
+
 
 class Bank:
 
